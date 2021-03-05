@@ -1,0 +1,8 @@
+{
+  "name": "hello-world",
+  "version": "0.0.1",
+  "description": "Hola mundo! en Typescript",
+  "author": "Emir Herrera <emir.herrera@gmail.com>",
+  "license": "GNU GPLv2",
+  "private": false
+}
