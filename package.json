@@ -3,6 +3,16 @@
   "version": "0.0.1",
   "description": "Hola mundo! en Typescript",
   "author": "Emir Herrera <emir.herrera@gmail.com>",
-  "license": "GNU GPLv2",
-  "private": false
+  "license": "GPL-2.0-only",
+  "private": false,
+  "scripts": {
+    "test": "karma start"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "karma": "^6.1.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
+    "karma-typescript-preprocessor": "^0.4.0"
+  }
 }
