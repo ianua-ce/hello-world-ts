@@ -1,6 +1,6 @@
 describe('UnitTest', () => {
 
   it('True', () => {
-    expect(true)
-  })
+    expect(true);
+  });
 });
