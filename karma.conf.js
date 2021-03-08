@@ -15,9 +15,13 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'test/**/*Spec.ts'
+      'test/**/*Spec.ts',
+      'src/**/*.ts'
     ],
 
+    karmaTypescriptConfig: {
+        tsconfig: "./tsconfig.json"
+    },
 
     // list of files / patterns to exclude
     exclude: [
@@ -34,7 +38,8 @@ module.exports = function(config) {
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
     reporters: [
-      'progress',
+      'spec'
+      // 'progress',
       // 'karma-typescript' // Creates code coverage HTML report
     ],
 
