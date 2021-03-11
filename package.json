@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Hola mundo! en Typescript",
   "author": "Emir Herrera <emir.herrera@gmail.com>",
+  "main": "dist/out-tsc/index.js",
   "license": "GPL-2.0-only",
   "private": false,
   "scripts": {
