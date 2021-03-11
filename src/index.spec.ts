@@ -1,7 +1,7 @@
-import helloWorld from '.';
+import { HelloWorld } from '.';
 
 describe('Hello world!', () => {
-  it('hello-world module exports "Hello world!" string', () => {
-    expect(helloWorld).toEqual('Hello world!');
+  it('"HelloWorld" class string value is "Hello World!"', () => {
+    expect(String(new HelloWorld()) ).toEqual('Hello world!');
   });
 });

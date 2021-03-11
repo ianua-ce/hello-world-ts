@@ -1,0 +1,9 @@
+{
+  "entryPoints": ["./src/index.ts"],
+  "out": "dist/html/api",
+  "exclude": [
+    "**/node_modules/**",
+    "**/*.spec.ts"
+  ],
+  "includeVersion": true
+}
