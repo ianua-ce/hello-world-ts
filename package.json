@@ -6,7 +6,8 @@
   "license": "GPL-2.0-only",
   "private": false,
   "scripts": {
-    "test": "karma start"
+    "test": "karma start",
+    "build": "tsc --build tsconfig.dist.json"
   },
   "devDependencies": {
     "karma": "^6.1.1",

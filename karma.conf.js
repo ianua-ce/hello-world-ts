@@ -19,7 +19,7 @@ module.exports = function(config) {
     ],
 
     karmaTypescriptConfig: {
-        tsconfig: "./tsconfig.json"
+        tsconfig: "./tsconfig.spec.json"
     },
 
     // list of files / patterns to exclude
