@@ -37,15 +37,22 @@ module.exports = function(config) {
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
     reporters: [
-      'spec'
-      // 'progress',
-      // 'karma-typescript' // Creates code coverage HTML report
+      'spec',
+      'karma-typescript' // Creates code coverage HTML report
     ],
-
 
     // web server port
     port: 9876,
 
+    karmaTypescriptConfig : {
+      reports : {
+        'html': {
+          'directory': 'dist/html',
+          'subdirectory': 'coverage'
+        },
+        'text': null,
+      }
+    },
 
     // enable / disable colors in the output (reporters and logs)
     colors: true,
