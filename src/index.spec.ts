@@ -1,4 +1,4 @@
-import helloWorld from 'hello-world';
+import helloWorld from '.';
 
 describe('Hello world!', () => {
   it('hello-world module exports "Hello world!" string', () => {
